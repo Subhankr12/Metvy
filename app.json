@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "metvy",
+    "slug": "metvy",
+    "privacy": "public",
+     "icon": "./assets/icon.jpg",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.temp.temp",
+      "supportsTablet": true
+    },
+    "android":{
+      "package": "com.temp.temp",
+      "config":{
+      "googleMaps": { "apiKey": "AIzaSyCxa9EfRyYesqQvjeNBWKch7nUzmfizVbY" }   
+    }
+    }
+  }
+}
