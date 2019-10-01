@@ -27,21 +27,27 @@ export default class demo extends Component{
 }
 */
 //AppRegistry.registerComponent('AndroidFonts', () => AndroidFonts);
-import React, {Component} from 'react';
-import { StyleSheet, View } from 'react-native'
+import React, { Component } from "react";
+import { StyleSheet, View } from "react-native";
 
-import LinkedInModal from 'react-native-linkedin'
+import LinkedInModal from "react-native-linkedin";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-})
+    backgroundColor: "#fff",
+    justifyContent: "center",
+    alignItems: "center"
+  }
+});
+const abc = StyleSheet.create({
+  conatiner: {
+    flex: 1,
+    alignItems: "center"
+  }
+});
 
-export default class demo extends Component{
+export default class demo extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -52,6 +58,6 @@ export default class demo extends Component{
           onSuccess={token => console.log(token)}
         />
       </View>
-    )
+    );
   }
 }
