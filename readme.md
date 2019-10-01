@@ -18,3 +18,5 @@ It also includes `mobx-persist` to allow state to be saved to `asyncStorage`.
 ## REACT NATIVE
 
 React Native is a JavaScript framework for building native mobile apps. It uses the React framework and offers large amount of inbuilt components and APIs.
+
+## THIS IS THE PRATICE PROJECT
